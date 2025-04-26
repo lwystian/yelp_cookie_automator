@@ -17,7 +17,7 @@
 - **图形化界面**：操作简单，带有运行日志显示
 
 ## 🖥️ 界面展示
-
+![UI界面](https://github.com/lwystian/yelp_cookie_automator/blob/master/assets/gui.png)
 
 主界面包含以下区域：
 1. 注册设置区 - 配置注册账号数量等参数
@@ -28,15 +28,15 @@
 ## 📦 使用准备
 1. 下载工具包（包含exe可执行文件）
 2. 确保已安装Chrome浏览器
-3. 下载[ChromeDriver](https://chromedriver.chromium.org/)并放在exe同目录下
+3. 下载与浏览器版本相同的[ChromeDriver](https://chromedriver.chromium.org/)并放在exe同目录下
 
 ## 🛠 使用方法
 
 ### 基本使用步骤
-1. 双击运行`yelp_automator.exe`
+1. 双击运行`yelp.exe`
 2. 在界面中设置：
    - 总注册账号数
-   - 每个IP注册数量（即线程数）
+   - 为了方便，我将每个IP注册数量和线程数设置为同一个参数
 3. 点击"▶ 开始注册"按钮
 4. 查看运行日志了解进度  
 5. 注册完成后使用"⏏ 导出Cookie"按钮保存cookie
@@ -56,7 +56,7 @@
 ## ⚠️ 注意事项
 1. 首次运行时可能会触发Windows防火墙警告，请允许访问
 2. 如遇CAPTCHA验证，工具会提示"触发人机验证"
-3. 建议每个IP注册不超过5个账号
+3. 建议每个IP注册不超过9个账号
 4. 管理员身份运行可获得更好的拨号稳定性
 
 ## ❓ 常见问题
